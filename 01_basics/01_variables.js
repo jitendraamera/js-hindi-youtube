@@ -3,6 +3,7 @@ let accountEmail="jitendrasingh@google.com";
 var accountPassword= "54321";
 accountCity="jaipur";
 let accountState;
+
 // accountId=987; // can't change const type variable
 
 /*
