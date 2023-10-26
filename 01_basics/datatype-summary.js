@@ -29,3 +29,28 @@ const myFunction = function(){
     console.log("Hello Ram")
 }
 console.log(typeof myFunction);
+
+// ***********************************************************
+// Memory in javascript
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Jits@google.com";
+
+let anotherName = myYoutubename;
+anotherName = "chaiaurcode";
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email:'jits@google.com',
+    upi:'user@ybi'
+}
+
+let userTwo = userOne
+
+userTwo.email = 'user@google.com'
+
+console.log(userOne.email);
+console.log(userTwo.email);
