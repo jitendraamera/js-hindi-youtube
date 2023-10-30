@@ -33,9 +33,34 @@ const obj3 = { ...obj1, ...obj2, ...obj4 };
 
 // console.log(obj3)
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('name')); // Output boolean type m aata h 
+// console.log(tinderUser.hasOwnProperty('name')); // Output boolean type m aata h 
+
+// ******************* Object De-Structure ****************
+
+const course = {
+    coursename: "js in hindi",
+    price: '999',
+    courseInstructor: 'hitesh'
+}
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+// *************** Json API Introduction *************
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
