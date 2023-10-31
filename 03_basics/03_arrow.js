@@ -46,6 +46,7 @@ const user = {
 
 // const addTwo = (num1, num2) => (num1 + num2)
 
+// pass Object in arrow function
 const addTwo = (num1, num2) => ({name: 'ram'})
 
 console.log(addTwo(5,2));
